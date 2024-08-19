@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <style>
+        
+        body {
+            background-color: #121212; 
+            color: #ffffff; 
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+       
+        .product-detail {
+            padding: 20px;
+            text-align: center;
+            max-width: 600px;
+            background-color: #1e1e1e; 
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+        }
+
+        .product-detail img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .product-detail h1 {
+            margin: 16px 0;
+            font-size: 1.5rem;
+            color: #ffffff;
+        }
+
+        .product-detail p {
+            color: #bbbbbb;
+            font-size: 1.1rem;
+            margin-bottom: 16px;
+        }
+
+    
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div id="product-detail" class="product-detail"></div>
+
+    <a href="index.html" class="back-button">← Back to Products</a>
+
+    <script src="./pr.detal.js"></script>
+</body>
+</html>
